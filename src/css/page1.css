@@ -16,3 +16,17 @@ p {
     line-height: 1.5;
     opacity: 60%;
 }
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 20%;
+}
