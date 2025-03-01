@@ -1,0 +1,15 @@
+:root {
+    --color-1: #000000;
+    --color-2: #252525;
+    --color-3: #ffffff;
+}
+
+@font-face {
+    font-family: "avenir-heavy";
+    src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "avenir-roman";
+    src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Roman.otf);
+}
