@@ -1,17 +1,46 @@
 @import url(variables.css);
 
-body .title {
-    font-family: 'avenir-heavy';
-    margin: 0;
+* {
     padding: 0;
-    background-color: #fff;
+    margin: 0;
+    box-sizing: border-box;
+
 }
 
-p {
-    font-family: 'avenir-roman';
-    font-weight: normal;
-    color: var(--color-2);
-    font-size: 16px;
-    line-height: 1.5;
-    opacity: 60%;
+body {
+    background-color: #ffffff;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "titulo parrafo"
+    "none boton"
+    "img img"
+    ;
+}
+
+.title {
+    grid-area: titulo;
+    background-color: aqua;
+}
+
+.text {
+    grid-area: parrafo;
+    background-color: yellowgreen;
+
+}
+
+.boton {
+    grid-area: boton;
+    background-color: violet;
+
+}
+
+.imagen {
+    grid-area: img;
+    background-color: blue;
+    
 }
