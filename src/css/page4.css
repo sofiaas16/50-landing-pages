@@ -11,12 +11,10 @@
     display: grid;
     padding-top: 40px;
     gap: 90px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
         "imagen title"
-        "imagen texto"
-        "imagen boton"
         "imagen texto2"
         "imagen texto3"
     
@@ -35,21 +33,52 @@
     font-size: 20px;
 }
 
-
-.texto {
+.title p {
     font-family: "avenir-roman";
-    opacity: 60%;
+    opacity: 85%;
     grid-area: texto;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #252525
 }
-.boton {
+
+.title button {
     grid-area: boton;
-}
+    margin-top: 20px;
+    font-size: 16px;
+
+}   
 
 .texto2 {
+    margin-top: 10px;
     grid-area: texto2;
+    font-size: 16px;
+    font-family: "avenir-roman";
+    color: #252525;
+    opacity: 85%;
+}
+
+.num1 {
+    font-size: 20px;
+    font-family: "avenir-heavy";
+    color: #252525;
+    opacity: 85%;
 }
 
 .texto3 {
+    margin-top: -290px;
     grid-area: texto3;
+    font-size: 16px;
+    font-family: "avenir-roman";
+    color: #252525;
+    opacity: 85%;
 }
 
+
+.num2 {
+    font-size: 20px;
+    font-family: "avenir-heavy";
+    color: #252525;
+    opacity: 85%;
+    
+}
