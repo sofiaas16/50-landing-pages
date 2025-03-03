@@ -1,0 +1,58 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #9C2004;
+}
+
+.container {
+    display: grid;
+    margin: 64px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "img titulo"
+        "img parrafo"
+    ;
+}
+
+.titulo {
+    font-family: "work";
+    color: #ffffff;
+}
+
+.parrafo {
+    font-family: "work";
+    color: #ffffff;
+}
+
+.boton {
+
+    text-align: center;
+    font-family: "avenir-roman";
+    grid-area: botonn;
+    color: #000000;
+    background-color: #E5B94B;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 10px 25px;
+    justify-self: start;
+    align-self: center;
+    justify-items: start;
+}
+
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+    display: inline-block;
+}
+
+.img1 {}
