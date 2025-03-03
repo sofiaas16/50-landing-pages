@@ -1,0 +1,20 @@
+:root {
+    --color-1: #000000;
+    --color-2: #252525;
+    --color-3: #ffffff;
+}
+
+@font-face {
+    font-family: "avenir-heavy";
+    src: url(../storage/fonts/playfair-display-bold-1740990310-0/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: "avenir-roman";
+    src: url(../storage/fonts/work-sans-medium-1740990571-0/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "avenir-roman";
+    src: url(../storage/fonts/work-sans-regular-1740990468-0/WorkSans-VariableFont_wght.ttf);
+}
