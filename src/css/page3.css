@@ -64,7 +64,7 @@ button {
 }
 .imagen {
     grid-area: img;
-    
+    margin-top: 80px;
 
 
 }
