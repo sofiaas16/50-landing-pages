@@ -1,0 +1,33 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.body {
+    background-color: #FFFF;
+}
+
+.text1 {
+    font-family: "avenir-roman";
+}
+.text1 h2 {
+    font-family: "avenir-heavy";
+}
+
+.text2 {
+    font-family: "avenir-roman";
+}
+.text2 h2 {
+    font-family: "avenir-heavy";
+}
+
+.text3 {
+    font-family: "avenir-roman";
+}
+.text3 h2 {
+    font-family: "avenir-heavy";
+}
