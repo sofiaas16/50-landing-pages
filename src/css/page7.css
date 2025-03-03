@@ -4,30 +4,95 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
-.body {
+body {
+    margin: 64px;
     background-color: #FFFF;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto;
+    margin-top: 200px;
+    grid-template-areas:
+        "title title title title"
+        "text1h2 text2h2 text3h2 text4h2"
+        "text1 text2 text3 text4"
+        "imagen1 imagen2 imagen3 imagen4";
+    gap: 20px;
+}
+
+.title {
+    font-family: "avenir-roman";
+    font-size: 25px;
+    grid-area: title;
 }
 
 .text1 {
     font-family: "avenir-roman";
+    grid-area: text1;
+    opacity: 70%;
 }
+
 .text1 h2 {
     font-family: "avenir-heavy";
+    grid-area: text1h2;
+    color: #252525;
+    opacity: 40%;
 }
 
 .text2 {
     font-family: "avenir-roman";
+    grid-area: text2;
+    opacity: 70%;
 }
+
 .text2 h2 {
     font-family: "avenir-heavy";
+    color: #252525;
+    opacity: 40%;
 }
 
 .text3 {
     font-family: "avenir-roman";
+    grid-area: text3;
+    opacity: 70%;
 }
+
 .text3 h2 {
     font-family: "avenir-heavy";
+    grid-area: text3h2;
+    color: #252525;
+    opacity: 40%;
+}
+
+.text4 {
+    font-family: "avenir-roman";
+    grid-area: text4;
+    opacity: 70%;
+}
+
+.text4 h2 {
+    font-family: "avenir-heavy";
+    grid-area: text4h2;
+    color: #252525;
+    opacity: 40%;
+}
+
+.img1 {
+    grid-area: imagen1;
+}
+
+.img2 {
+    grid-area: imagen2;
+}
+
+.img3 {
+    grid-area: imagen3;
+}
+
+.img4 {
+    grid-area: imagen4;
 }
