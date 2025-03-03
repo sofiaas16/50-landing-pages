@@ -17,15 +17,15 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-        "imgagenes titulo"
-        "imgagenes parrafo"
+        "imagenes titulo"
+        "imagenes parrafo"
     ;
 }
 
 .titulo {
     font-family: "work";
     color: #ffffff;
-    
+
 }
 
 .parrafo {
@@ -54,8 +54,44 @@ button {
     color: inherit;
     font: inherit;
     display: inline-block;
+    margin: 64px;
 }
 
-.imgenes {
+.imagenes {
+    grid-area: imagenes;
+    display: flex;
+    width: 656px;
+    height: 861.5px;
+    position: relative;
+    bottom: -64px;
+    background-color: red;
+}
 
+.imagenes .imagen1 {
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+}
+
+.imagenes .imagen2 {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+.imagenes .imagen3 {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    right: 0;
+}
+
+.imagenes .circulo {
+    background-color: yellow;
+    width: 656px;
+    height: 656px;
+    border-radius: 50%;
+    position: absolute;
 }
