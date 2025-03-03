@@ -9,32 +9,40 @@
 
 body {
     background-color: #9C2004;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
 }
 
 .container {
     display: grid;
     margin: 64px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 656px 656px;
+    grid-template-rows: auto auto;
+    gap: 20px;
     grid-template-areas:
         "imagenes titulo"
-        "imagenes parrafo"
-    ;
+        "imagenes parrafo";
 }
 
 .titulo {
     font-family: "work";
     color: #ffffff;
-
+    font-size: 40px;
+    grid-area: titulo;
+    font-weight: bold;
+    grid-area: "titulo";
 }
 
 .parrafo {
     font-family: "work";
     color: #ffffff;
+    grid-area: "parrafo";
+    
 }
 
 .boton {
-
     text-align: center;
     font-family: "avenir-roman";
     grid-area: botonn;
@@ -48,14 +56,7 @@ body {
     justify-items: start;
 }
 
-button {
-    border: none;
-    background: none;
-    color: inherit;
-    font: inherit;
-    display: inline-block;
-    margin: 64px;
-}
+
 
 .imagenes {
     grid-area: imagenes;
@@ -64,7 +65,6 @@ button {
     height: 861.5px;
     position: relative;
     bottom: -64px;
-    background-color: red;
 }
 
 .imagenes .imagen1 {
@@ -89,9 +89,10 @@ button {
 }
 
 .imagenes .circulo {
-    background-color: yellow;
+    background-color: var(--color-4);
     width: 656px;
     height: 656px;
     border-radius: 50%;
     position: absolute;
+
 }
