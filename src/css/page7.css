@@ -34,6 +34,7 @@ body {
     font-family: "avenir-roman";
     grid-area: text1;
     opacity: 70%;
+
 }
 
 .text1 h2 {
@@ -44,6 +45,7 @@ body {
 }
 
 .text2 {
+    margin-top: 20px;
     font-family: "avenir-roman";
     grid-area: text2;
     opacity: 70%;
@@ -56,6 +58,7 @@ body {
 }
 
 .text3 {
+    margin-top: 20px;
     font-family: "avenir-roman";
     grid-area: text3;
     opacity: 70%;
@@ -69,6 +72,7 @@ body {
 }
 
 .text4 {
+    margin-top: 20px;
     font-family: "avenir-roman";
     grid-area: text4;
     opacity: 70%;
