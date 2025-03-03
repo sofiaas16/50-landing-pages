@@ -13,11 +13,11 @@ body {
 }
 
 .container {
-
+    
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 64px;
+    margin: 70px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -28,12 +28,13 @@ body {
 }
 
 
-.title {
+.title h1 {
     grid-area: title;
     font-size: 20px;
-    font-size: 40px;
+    font-size: 60px;
     font-family: "avenir-heavy";
 }
+
 
 .text1 h3 {
     font-family: "avenir-heavy";
@@ -50,7 +51,7 @@ body {
     font-family: "avenir-roman";
     line-height: 30px;
     color: #252525;
-    opacity: 100%;
+    opacity: 90%;
     margin-top: 20px;
 
 }
@@ -70,7 +71,7 @@ body {
     font-family: "avenir-roman";
     line-height: 30px;
     color: #252525;
-    opacity: 100%;
+    opacity: 90%;
     margin-top: 20px;
 }
 
@@ -89,21 +90,23 @@ body {
     font-family: "avenir-roman";
     line-height: 30px;
     color: #252525;
-    opacity: 100%;
+    opacity: 90%;
     margin-top: 20px;
 }
 
 .img1 {
     grid-area: imagen1;
+    margin-top: 20px;
 }
 
 .img2 {
     grid-area: imagen2;
+    margin-top: 20px;
   
 }
 
 .img3 {
     grid-area: imagen3;
-    
+    margin-top: 20px;
      
 }
