@@ -6,3 +6,50 @@
     box-sizing: border-box;
 
 }
+
+.container {
+    display: grid;
+    padding-top: 40px;
+    gap: 90px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "imagen title"
+        "imagen texto"
+        "imagen boton"
+        "imagen texto2"
+        "imagen texto3"
+    
+    
+    ;
+    
+}
+
+.imagen {
+    grid-area: imagen;
+
+}
+.title {
+    font-family: "avenir-heavy";
+    grid-area: title;
+    font-size: 20px;
+}
+
+
+.texto {
+    font-family: "avenir-roman";
+    opacity: 60%;
+    grid-area: texto;
+}
+.boton {
+    grid-area: boton;
+}
+
+.texto2 {
+    grid-area: texto2;
+}
+
+.texto3 {
+    grid-area: texto3;
+}
+
