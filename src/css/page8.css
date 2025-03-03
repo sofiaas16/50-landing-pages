@@ -17,14 +17,15 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-        "img titulo"
-        "img parrafo"
+        "imgagenes titulo"
+        "imgagenes parrafo"
     ;
 }
 
 .titulo {
     font-family: "work";
     color: #ffffff;
+    
 }
 
 .parrafo {
@@ -55,4 +56,6 @@ button {
     display: inline-block;
 }
 
-.img1 {}
+.imgenes {
+
+}
