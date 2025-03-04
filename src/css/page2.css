@@ -8,7 +8,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 30px
+    align-items: center;
+    gap: 40px
 }
 
 .title {
@@ -33,16 +34,25 @@ body {
 
 .img1 {
     display: flex;
-    background-color: aqua;
-    width: 20vw;
-    height: 30vw;
-    grid-column: 2 / 2;
+    justify-content: center;
+    grid-column: 2 / span 1;
+    grid-row: 1/1;
+}
+
+.img1 img {
+    width: 22vw;
+    height: 55vh;
 }
 
 .img2 {
     display: flex;
-    background-color: aqua;
-    width: 20vw;
-    height: 30vw;
-    grid-column: 2 / 2;
+    grid-column: 3 / span 1;
+    justify-content: center;
+}
+
+.img2 img {
+    width: 22vw;
+    height: 55vh;
+    margin-top: 30%;
+    margin-left: -180px;
 }
