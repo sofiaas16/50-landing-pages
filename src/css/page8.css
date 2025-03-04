@@ -27,33 +27,51 @@ body {
 }
 
 .titulo {
+    margin-top: 150px;
     font-family: "work";
     color: #ffffff;
     font-size: 40px;
     grid-area: titulo;
     font-weight: bold;
     grid-area: "titulo";
+    justify-content: center;
+    margin-left: 110px;
 }
 
 .parrafo {
+    margin-left: 115px;
+    justify-content: center;
+    align-items: center;
     font-family: "work";
     color: #ffffff;
     grid-area: "parrafo";
-    
+   
+
+
 }
 
+.parrafo p {
+    margin-top: -10px;
+    line-height: 30px;
+    font-size: 25px;
+}
 .boton {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-family: "avenir-roman";
-    grid-area: botonn;
+    font-family: "work";
+    grid-area: "boton";
     color: #000000;
     background-color: #E5B94B;
-    border-radius: 10px;
-    font-size: 12px;
-    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 15px 30px;
     justify-self: start;
     align-self: center;
     justify-items: start;
+    border: none;
+    font-weight: 500 ;
 }
 
 
