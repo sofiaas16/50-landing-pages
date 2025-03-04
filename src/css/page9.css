@@ -1,0 +1,28 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #ffffff;
+    margin: 64px;
+}
+
+
+.container {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "none titulo img1"
+        "none texto img1"
+        "img2 menu menu";
+}
