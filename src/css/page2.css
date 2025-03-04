@@ -1,0 +1,104 @@
+@import url(variables.css);
+
+body {
+    padding: 64px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    gap: 40px
+}
+
+.title {
+    font-family: avenir-heavy;
+}
+
+.parrafo {
+    font-family: avenir-roman;
+    opacity: 55%;
+}
+
+
+.boton {
+    display: flex;
+    background-color: #252525;
+    color: white;
+    font-family: 'avenir-roman';
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 10px 20px;
+
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    grid-column: 2 / span 1;
+    grid-row: 1/1;
+}
+
+.img1 img {
+    width: 22vw;
+    height: 55vh;
+}
+
+.img2 {
+    display: flex;
+    grid-column: 3 / span 1;
+    justify-content: center;
+}
+
+.img2 img {
+    width: 22vw;
+    height: 55vh;
+    margin-top: 30%;
+    margin-left: -180px;
+}
+
+.img3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.img3 img {
+    display: flex;
+    width: 21.25vw;
+    height: 44.44vh;
+}
+
+.img4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.img4 img {
+    display: flex;
+    width: 21.25vw;
+    height: 44.44vh;
+}
+
+.img5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.img5 img {
+    display: flex;
+    width: 21.25vw;
+    height: 44.44vh;
+}
