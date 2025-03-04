@@ -2,6 +2,7 @@
     --color-1: #000000;
     --color-2: #252525;
     --color-3: #ffffff;
+    --color-4: #E5B94B;
 }
 
 @font-face {
@@ -11,6 +12,10 @@
 @font-face {
     font-family: "avenir-roman";
     src: url(../storage/fonts/Avenir/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: "work";
+    src: url(../storage/fonts/Work/Work_Sans/WorkSans-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: "work-sans";
