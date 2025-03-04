@@ -2,26 +2,14 @@
     --color-1: #000000;
     --color-2: #252525;
     --color-3: #ffffff;
-    --color-4: #E5B94B;
 }
 
 @font-face {
     font-family: "avenir-heavy";
     src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Heavy.otf);
 }
+
 @font-face {
     font-family: "avenir-roman";
-    src: url(../storage/fonts/Avenir/AvenirLTStd-Roman.otf);
-}
-@font-face {
-    font-family: "work";
-    src: url(../storage/fonts/Work/Work_Sans/WorkSans-VariableFont_wght.ttf);
-}
-@font-face {
-    font-family: "work-sans";
-    src: url(../storage/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
-}
-@font-face {
-    font-family: "italic";
-    src: url(../storage/fonts/playfair-display-bold-1740990310-0/PlayfairDisplay-Bold.ttf);
+    src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Roman.otf);
 }
