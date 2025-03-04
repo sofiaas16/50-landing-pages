@@ -13,3 +13,12 @@
     font-family: "avenir-roman";
     src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Roman.otf);
 }
+@font-face {
+    font-family: "avenir-heavy";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "avenir-roman";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Roman.otf);
+}
