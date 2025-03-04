@@ -1,0 +1,113 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #ffffff;
+    margin: 64px;
+}
+
+.container {
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "title none none"
+        "text1 text2 text3"
+        "imagen1 imagen2 imagen3"
+    ;
+}
+
+
+.title h1 {
+    grid-area: title;
+    font-size: 20px;
+    font-size: 60px;
+    font-family: "avenir-heavy";
+}
+
+
+.text1 h3 {
+    font-family: "avenir-heavy";
+    font-size: 22px;
+    line-height: 50px;
+    opacity: 70%;
+    
+}
+
+.text1 {
+    margin-top: -100px;
+    grid-area: text1;
+    font-size: 20px;
+    font-family: "avenir-roman";
+    line-height: 30px;
+    color: #252525;
+    opacity: 90%;
+    margin-top: 20px;
+
+}
+
+.text2 h3 {
+    font-family: "avenir-heavy";
+    font-size: 22px;
+    line-height: 50px;
+    opacity: 70%;
+    
+}
+
+.text2 {    
+    margin-top: -100px;
+    grid-area: text2;
+    font-size: 20px;
+    font-family: "avenir-roman";
+    line-height: 30px;
+    color: #252525;
+    opacity: 90%;
+    margin-top: 20px;
+}
+
+.text3 h3 {
+    font-family: "avenir-heavy";
+    font-size: 22px;
+    line-height: 50px;
+    opacity: 70%;
+    
+    
+}
+.text3 {
+    margin-top: -100px;
+    grid-area: text3;
+    font-size: 20px;
+    font-family: "avenir-roman";
+    line-height: 30px;
+    color: #252525;
+    opacity: 90%;
+    margin-top: 20px;
+}
+
+.img1 {
+    grid-area: imagen1;
+    margin-top: 20px;
+}
+
+.img2 {
+    grid-area: imagen2;
+    margin-top: 20px;
+  
+}
+
+.img3 {
+    grid-area: imagen3;
+    margin-top: 20px;
+     
+}
