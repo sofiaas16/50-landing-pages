@@ -23,6 +23,7 @@ body {
 
 
 .boton {
+    display: flex;
     background-color: #252525;
     color: white;
     font-family: 'avenir-roman';
