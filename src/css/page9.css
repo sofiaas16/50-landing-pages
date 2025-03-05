@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #97A3A3;
     margin: 64px;
 }
 
@@ -18,11 +18,99 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 64px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-        "none titulo img1"
-        "none texto img1"
+        "titulo titulo titulo"
+        ". texto ."
         "img2 menu menu";
+}
+
+.Encabezado {
+    grid-area: titulo;
+    margin-left: 383px;
+}
+
+.Encabezado h1 {
+    display: grid;
+    font-family: "Poppins-Bold";
+    grid-area: titulo;
+    color: #363830;
+    position: relative;
+    font-size: 88px;
+    z-index: 2;
+}
+
+.Encabezado p {
+    font-family: "Poppins-Regular";
+    grid-area: texto;
+    color: #363830;
+    line-height: 35px;
+    font-size: 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.Encabezado button {
+    text-align: center;
+    background-color: #363830;
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 10px 30px;
+    border: none;
+    font-family: "Poppins-Regular";
+    grid-area: texto;
+    color: #ffffff;
+    position: relative
+    
+}
+
+
+
+.idk {
+    line-height: 80px;
+}
+
+.stars {
+    z-index: 2;
+    margin-top: 40px;
+    grid-area: menu;
+    /* Acuérdate de ponerle estoooooo para que sirva el grid, olvidadiza.*/
+    display: flex;
+    /*Esto también para que la lista se pueda mover bien*/
+    justify-content: center;
+    align-items: center;
+    margin-right: -15px;
+}
+
+.stars ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    /* Espaciado entre los elementos que agregue anteriormente */
+    padding: 0;
+    background: rgba(255, 255, 255, 0.35);
+    /* 0.8 = 80% de opacidad  y así sucesivamente, entre más aumente menos opacidad*/
+    padding: 30px;
+    border-radius: 120px;
+    width: 165%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.stars li {
+    text-align: left;
+    max-width: 200px;
+}
+
+.number {
+    font-family: "Poppins-Bold";
+    color: #363830;
+    font-size: 20px;
+}
+
+.text {
+    font-family: "Poppins-Regular";
+    color: #363830;
 }
