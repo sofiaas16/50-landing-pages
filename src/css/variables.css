@@ -14,6 +14,16 @@
     font-family: "avenir-roman";
     src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Roman.otf);
 }
+<<<<<<< HEAD
+@font-face {
+    font-family: "avenir-heavy";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "avenir-roman";
+    src: url(../storage/fonts/Avenir/AvenirLTStd-Roman.otf);
+=======
 
 @font-face {
     font-family: "work";
@@ -28,4 +38,5 @@
 @font-face {
     font-family: "italic";
     src: url(../storage/fonts/playfair-display-bold-1740990310-0/PlayfairDisplay-Bold.ttf);
+>>>>>>> 9c99374dc98ce60ddcd9c16bddd0f78c2058d6be
 }
