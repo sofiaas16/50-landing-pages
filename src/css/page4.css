@@ -7,19 +7,25 @@
 
 }
 
+body {
+    margin: -1px;
+
+}
+
 .container {
+
     display: grid;
     padding-top: 40px;
     gap: 90px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: start;
-    grid-template-areas: 
+    grid-template-areas:
         "imagen title"
         "imagen texto2"
         "imagen texto3"
     ;
-    
+
 }
 
 .imagen {
@@ -28,6 +34,7 @@
     height: auto;
     object-fit: cover;
 }
+
 .title {
     font-family: "avenir-heavy";
     grid-area: title;
@@ -43,7 +50,6 @@
     margin-top: 20px;
     font-size: 18px;
     color: #252525
-    
 }
 
 .title button {
@@ -53,14 +59,14 @@
     text-align: center;
     font-family: "avenir-roman";
     grid-area: botonn;
-    color:#ffffff;
+    color: #ffffff;
     background-color: #252525;
     border-radius: 10px;
     font-size: 12px;
     padding: 12px 30px;
     border: none;
 
-}   
+}
 
 .texto2 {
     margin-top: 10px;
@@ -87,7 +93,7 @@
     font-family: "avenir-roman";
     color: #252525;
     opacity: 85%;
-    
+
 }
 
 
@@ -96,5 +102,5 @@
     font-family: "avenir-heavy";
     color: #252525;
     opacity: 85%;
-    
+
 }
