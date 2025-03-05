@@ -31,6 +31,7 @@ body {
     margin-left: 383px;
 }
 
+
 .Encabezado h1 {
     display: grid;
     font-family: "Poppins-Bold";
@@ -65,12 +66,29 @@ body {
     
 }
 
+.Encabezado img {
+    z-index: 1;
+    transform: translate(73%, -59%);
+    position: absolute;
+    width: 537px;
+    height: 512px;
+}
 
-
+.Encabezado h1,
+.Encabezado p,
+.Encabezado button {
+    margin-left: -250px;
+}
 .idk {
     line-height: 80px;
 }
-
+.img2 {
+    z-index: 1;
+    transform: translate(-125%, 85%);
+    position: absolute;
+    width: 537px;
+    height: 512px;
+}
 .stars {
     z-index: 2;
     margin-top: 40px;
