@@ -14,6 +14,7 @@ body {
 .container {
     display: grid;
     margin: 64px;
+    max-width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -26,15 +27,14 @@ body {
 .title {
     font-family: "avenir-heavy";
     grid-area: titulo;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .text {
     font-family: "avenir-roman";
     opacity: 60%;
     grid-area: parrafo;
-    
-
+    font-size: 20px;
 
 }
 
@@ -46,7 +46,7 @@ body {
     color:#ffffff;
     background-color: #252525;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 20px;
     padding: 10px 25px;
     /**display: inline-block; esto sería para que no ocupara todo el ancho de la celda**/
     justify-self: start; /** para que de ancho se quede solo en el inicio de la columna en la que está**/
