@@ -77,14 +77,14 @@ body {
 .Encabezado h1,
 .Encabezado p,
 .Encabezado button {
-    margin-left: -250px;
+    margin-left: -270px;
 }
 .idk {
     line-height: 80px;
 }
 .img2 {
     z-index: 1;
-    transform: translate(-125%, 85%);
+    transform: translate(-150%, 85%);
     position: absolute;
     width: 537px;
     height: 512px;
