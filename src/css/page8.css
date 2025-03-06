@@ -1,0 +1,116 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #9C2004;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+}
+
+.container {
+    display: grid;
+    margin: 64px;
+    grid-template-columns: 656px 656px;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    grid-template-areas:
+        "imagenes titulo"
+        "imagenes parrafo";
+}
+
+.titulo {
+    margin-top: 150px;
+    font-family: "work";
+    color: #ffffff;
+    font-size: 40px;
+    grid-area: titulo;
+    font-weight: bold;
+    grid-area: "titulo";
+    justify-content: center;
+    margin-left: 110px;
+}
+
+.parrafo {
+    margin-left: 115px;
+    justify-content: center;
+    align-items: center;
+    font-family: "work";
+    color: #ffffff;
+    grid-area: "parrafo";
+   
+
+
+}
+
+.parrafo p {
+    margin-top: -10px;
+    line-height: 30px;
+    font-size: 25px;
+}
+.boton {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "work";
+    grid-area: "boton";
+    color: #000000;
+    background-color: #E5B94B;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 15px 30px;
+    justify-self: start;
+    align-self: center;
+    justify-items: start;
+    border: none;
+    font-weight: 500 ;
+}
+
+
+
+.imagenes {
+    grid-area: imagenes;
+    display: flex;
+    width: 656px;
+    height: 861.5px;
+    position: relative;
+    bottom: -64px;
+}
+
+.imagenes .imagen1 {
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+}
+
+.imagenes .imagen2 {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+.imagenes .imagen3 {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    right: 0;
+}
+
+.imagenes .circulo {
+    background-color: var(--color-4);
+    width: 656px;
+    height: 656px;
+    border-radius: 50%;
+    position: absolute;
+
+}

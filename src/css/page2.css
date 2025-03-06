@@ -8,12 +8,21 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "titulo img2 img3"
+    "img4 img5 img6";
     align-items: center;
     gap: 40px
 }
 
+.clase {
+    display: flex;
+    align-items: center;
+    grid-area: titulo;
+}
 .title {
     font-family: avenir-heavy;
+    font-size: 30px;
 }
 
 .parrafo {
@@ -23,13 +32,15 @@ body {
 
 
 .boton {
-    display: flex;
+    border: none;
+    margin-left: -415px;
+    margin-top: 490px;
     background-color: #252525;
     color: white;
     font-family: 'avenir-roman';
     border-radius: 15px;
-    font-size: 14px;
-    padding: 10px 20px;
+    font-size: 20px;
+    padding: 15px 20px;
 
 }
 
