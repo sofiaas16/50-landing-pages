@@ -1,0 +1,103 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: -1px;
+
+}
+
+.container {
+
+    display: grid;
+    padding-top: 40px;
+    gap: 90px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: start;
+    grid-template-areas:
+        "imagen title"
+        "imagen texto2"
+        "imagen texto3"
+    ;
+}
+
+.imagen {
+    grid-area: imagen;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.title {
+    font-family: "avenir-heavy";
+    grid-area: title;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.title p {
+    font-family: "avenir-roman";
+    line-height: 1.6;
+    opacity: 85%;
+    grid-area: texto;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #252525
+}
+
+.title button {
+    grid-area: boton;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "avenir-roman";
+    grid-area: botonn;
+    color: #ffffff;
+    background-color: #252525;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 12px 30px;
+    border: none;
+
+}
+
+.texto2 {
+    margin-top: 10px;
+    grid-area: texto2;
+    font-size: 18px;
+    font-family: "avenir-roman";
+    color: #252525;
+    opacity: 85%;
+    line-height: 1.6;
+}
+
+.num1 {
+    font-size: 22px;
+    font-family: "avenir-heavy";
+    color: #252525;
+    opacity: 85%;
+}
+
+.texto3 {
+    margin-top: -200px;
+    grid-area: texto3;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "avenir-roman";
+    color: #252525;
+    opacity: 85%;
+}
+
+
+.num2 {
+    font-size: 22px;
+    font-family: "avenir-heavy";
+    color: #252525;
+    opacity: 85%;
+}
